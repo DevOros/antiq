@@ -1,0 +1,120 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px; /* Mitad del padding original */
+  background-color: #333; /* Ajustado el color de fondo */
+  color: #ffffff;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  font-size: 24px;
+  color: #cbb26a; /* Color dorado */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #cbb26a; /* Ajustado el grosor del borde */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #cbb26a;
+  min-width: 160px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  text-align: center; /* Centrar el texto del menú desplegable */
+}
+
+.dropdown-content a {
+  color: #ffffff;
+  padding: 12px 16px;
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid #fff; /* Borde blanco entre elementos del menú */
+}
+
+.dropdown-content a:last-child {
+  border-bottom: none; /* Eliminar el borde en el último elemento */
+}
+
+.dropdown-content a:hover {
+  background-color: #333;
+}
+
+.logo-and-image {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row; /* Cambiado a disposición horizontal */
+  padding: 60px; /* Doble del padding original */
+}
+
+.logo img,
+.image img {
+  width: 500px; /* Doble del tamaño original */
+  height: auto; /* Ajusta el alto según las dimensiones de la imagen */
+  display: block;
+  margin: 0 10px; /* Doble del espacio alrededor */
+}
+
+.main-content {
+  text-align: center;
+  padding: 40px; /* Doble del padding original */
+}
+
+.centered {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px; /* Doble del padding original */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* ... (código anterior) ... */
+
+.dropbtn {
+  background-color: transparent;
+  color: #ffffff;
+  border: 2px solid #cbb26a; /* Ajustado el grosor del borde */
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Añadir esta regla para mostrar el contenido del menú al hacer hover sobre el botón */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ... (código posterior) ... */
