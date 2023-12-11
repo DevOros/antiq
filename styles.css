@@ -118,3 +118,192 @@ footer {
 }
 
 /* ... (código posterior) ... */
+/* Estilos base */
+
+/* Media query para pantallas pequeñas (teléfonos) */
+@media only screen and (max-width: 600px) {
+  .header-content {
+    padding: 10px; /* Ajusta el padding para pantallas pequeñas */
+  }
+
+  .menu {
+    /* Ajustes adicionales para el menú en pantallas pequeñas */
+  }
+
+  .icon {
+    font-size: 20px; /* Ajusta el tamaño del icono para pantallas pequeñas */
+  }
+
+  .dropdown-content {
+    /* Ajustes adicionales para el menú desplegable en pantallas pequeñas */
+  }
+
+  .logo-and-image {
+    padding: 20px; /* Ajusta el padding para pantallas pequeñas */
+    flex-direction: column; /* Cambia la dirección del flexbox para apilar elementos verticalmente */
+    align-items: center; /* Centra los elementos en pantallas pequeñas */
+  }
+
+  .logo img,
+  .image img {
+    width: 80%; /* Ajusta el tamaño de las imágenes para pantallas pequeñas */
+    margin: 10px 0; /* Ajusta el espacio alrededor de las imágenes para pantallas pequeñas */
+  }
+
+  .main-content {
+    padding: 20px; /* Ajusta el padding para pantallas pequeñas */
+  }
+
+  .centered {
+    padding: 20px; /* Ajusta el padding para pantallas pequeñas */
+  }
+
+  footer {
+    padding: 10px; /* Ajusta el padding para pantallas pequeñas */
+  }
+}
+
+/* Media query para pantallas pequeñas (teléfonos) */
+@media only screen and (max-width: 600px) {
+  .header-content {
+    padding: 10px;
+  }
+
+  .menu {
+    /* Ajustes adicionales para el menú en pantallas pequeñas */
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  .dropdown-content {
+    /* Ajustes adicionales para el menú desplegable en pantallas pequeñas */
+  }
+
+  .logo-and-image {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Centra horizontalmente */
+  }
+
+  .logo img,
+  .image img {
+    width: 80%;
+    margin: 10px auto; /* Centra horizontalmente */
+  }
+
+  .main-content {
+    padding: 20px;
+  }
+
+  .centered {
+    padding: 20px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}
+/* Media query para pantallas pequeñas (teléfonos) */
+@media only screen and (max-width: 600px) {
+  .header-content {
+    padding: 10px;
+  }
+
+  .menu {
+    /* Ajustes adicionales para el menú en pantallas pequeñas */
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  .dropdown-content {
+    /* Ajustes adicionales para el menú desplegable en pantallas pequeñas */
+  }
+
+  .logo-and-image {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Centra horizontalmente */
+  }
+
+  .logo img,
+  .image img {
+    width: 80%;
+    margin: 10px auto; /* Centra horizontalmente */
+  }
+
+  .main-content {
+    padding: 20px;
+    margin-bottom: 60px; /* Agregado margen inferior para evitar superposición con el footer */
+  }
+
+  .centered {
+    padding: 20px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}
+/* Media query para pantallas pequeñas (teléfonos) */
+@media only screen and (max-width: 600px) {
+  .header-content {
+    padding: 10px;
+  }
+
+  .menu {
+    /* Ajustes adicionales para el menú en pantallas pequeñas */
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  .dropdown-content {
+    /* Ajustes adicionales para el menú desplegable en pantallas pequeñas */
+  }
+
+  .logo-and-image {
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Centra horizontalmente */
+  }
+
+  .logo img,
+  .image img {
+    width: 80%;
+    margin: 10px auto; /* Centra horizontalmente */
+  }
+
+  .main-content {
+    padding: 20px;
+    margin-bottom: 60px; /* Agregado margen inferior para evitar superposición con el footer */
+  }
+
+  .centered {
+    padding: 20px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+}
+
+/* Media query para pantallas medianas (tabletas, por ejemplo) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Ajustes adicionales para pantallas medianas */
+}
+
+/* Media query para pantallas grandes (escritorios, laptops, etc.) */
+@media only screen and (min-width: 1025px) {
+  /* Ajustes adicionales para pantallas grandes */
+}
