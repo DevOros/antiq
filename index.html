@@ -7,6 +7,39 @@
     <link rel="icon" href="icon.jpg" type="image/jpg" />
 
     <title>Antiq</title>
+    <style>
+      section {
+        border: 4px solid #cbb26a;
+        margin: 20px;
+        padding: 20px;
+      }
+
+      #quienes-somos {
+        text-align: justify;
+        line-height: 1.5;
+      }
+
+      #articulos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        text-align: center;
+      }
+
+      #articulos img {
+        width: 100%;
+        border: 2px solid #cbb26a;
+        margin-bottom: 10px;
+      }
+
+      #contacto {
+        text-align: center;
+      }
+
+      #informacion-adicional {
+        border: none;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -15,9 +48,9 @@
           <div class="dropdown">
             <button class="dropbtn">Menú</button>
             <div class="dropdown-content">
-              <a href="#">Whatsapp</a>
-              <a href="#">Instagram</a>
-              <a href="#">Mail</a>
+              <a href="#quienes-somos">Quienes somos</a>
+              <a href="#articulos">Artículos</a>
+              <a href="#contacto">Contacto</a>
             </div>
           </div>
         </div>
@@ -25,19 +58,65 @@
     </header>
 
     <div class="logo-and-image">
-      <!-- Puedes insertar aquí tu imagen de logo -->
       <div class="logo">
         <img src="logo.png" alt="Logo" />
       </div>
-      <!-- Puedes insertar aquí tu imagen al lado del logo -->
       <div class="image">
         <img src="imagen.jpg" alt="Imagen" />
       </div>
     </div>
 
-    <section class="main-content">
+    <section id="quienes-somos" class="main-content">
       <div class="centered">
-        <!-- Lugar para texto -->
+        <h2>Quienes somos</h2>
+        <p>
+          Somos un comercio apasionado por las antigüedades, dedicado a
+          descubrir y preservar objetos con historias únicas. Nuestra misión es
+          ofrecer a nuestros clientes una experiencia única al explorar el
+          pasado a través de piezas auténticas que cuentan historias
+          fascinantes. Con una amplia variedad de antigüedades cuidadosamente
+          seleccionadas, nuestro comercio es un lugar donde la historia cobra
+          vida. Únete a nosotros en un viaje en el tiempo y descubre la belleza
+          de épocas pasadas.
+        </p>
+      </div>
+    </section>
+
+    <section id="articulos" class="main-content">
+      <div class="centered">
+        <h2>Artículos</h2>
+        <div id="articulos">
+          <img src="vajilla.jpg" alt="Vajilla" />
+          <p>Vajilla</p>
+          <img src="estatuillas.jpg" alt="Estatuillas" />
+          <p>Estatuillas</p>
+          <img src="jarrones.jpg" alt="Jarrones" />
+          <p>Jarrones</p>
+          <img src="relojes.jpg" alt="Relojes" />
+          <p>Relojes</p>
+          <img src="plata.jpg" alt="Plata" />
+          <p>Plata</p>
+          <img src="extras.jpg" alt="Extras" />
+          <p>Extras</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="main-content">
+      <div class="centered">
+        <h2>Contacto</h2>
+        <p>
+          ¡Contáctanos para descubrir más sobre nuestras antigüedades y
+          servicios! Estamos aquí para responder a todas tus preguntas y
+          ayudarte en tu búsqueda de tesoros históricos.
+        </p>
+        <p>Teléfono: +123 456 789</p>
+        <p>Correo electrónico: info@antiquities.com</p>
+      </div>
+    </section>
+
+    <section id="informacion-adicional" class="main-content">
+      <div class="centered">
         <h1>Antiq</h1>
         <h3>Antigüedades ||| Mar del Plata</h3>
         <p>Disfrutá la historia con estilo.</p>
@@ -45,7 +124,7 @@
     </section>
 
     <footer>
-      <p>&copy; 2023 Antiq. Todos los derechos reservados.</p>
+      <p>&copy; Powered by DevOros 2023. Todos los derechos reservados.</p>
     </footer>
   </body>
 </html>

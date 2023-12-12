@@ -9,8 +9,8 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px; /* Mitad del padding original */
-  background-color: #333; /* Ajustado el color de fondo */
+  padding: 20px 40px;
+  background-color: #333;
   color: #ffffff;
 }
 
@@ -21,7 +21,7 @@ body {
 
 .icon {
   font-size: 24px;
-  color: #cbb26a; /* Color dorado */
+  color: #cbb26a;
 }
 
 .dropdown {
@@ -32,7 +32,7 @@ body {
 .dropbtn {
   background-color: transparent;
   color: #ffffff;
-  border: 2px solid #cbb26a; /* Ajustado el grosor del borde */
+  border: 2px solid #cbb26a;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -45,7 +45,7 @@ body {
   min-width: 160px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
-  text-align: center; /* Centrar el texto del menú desplegable */
+  text-align: center;
 }
 
 .dropdown-content a {
@@ -53,11 +53,11 @@ body {
   padding: 12px 16px;
   display: block;
   text-decoration: none;
-  border-bottom: 1px solid #fff; /* Borde blanco entre elementos del menú */
+  border-bottom: 1px solid #fff;
 }
 
 .dropdown-content a:last-child {
-  border-bottom: none; /* Eliminar el borde en el último elemento */
+  border-bottom: none;
 }
 
 .dropdown-content a:hover {
@@ -68,27 +68,27 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  flex-direction: row; /* Cambiado a disposición horizontal */
-  padding: 60px; /* Doble del padding original */
+  flex-direction: row;
+  padding: 60px;
 }
 
 .logo img,
 .image img {
-  width: 500px; /* Doble del tamaño original */
-  height: auto; /* Ajusta el alto según las dimensiones de la imagen */
+  width: 500px;
+  height: auto;
   display: block;
-  margin: 0 10px; /* Doble del espacio alrededor */
+  margin: 0 10px;
 }
 
 .main-content {
   text-align: center;
-  padding: 40px; /* Doble del padding original */
+  padding: 40px;
 }
 
 .centered {
   max-width: 600px;
   margin: 0 auto;
-  padding: 40px; /* Doble del padding original */
+  padding: 40px;
 }
 
 footer {
@@ -101,76 +101,25 @@ footer {
   width: 100%;
 }
 
-/* ... (código anterior) ... */
-
 .dropbtn {
   background-color: transparent;
   color: #ffffff;
-  border: 2px solid #cbb26a; /* Ajustado el grosor del borde */
+  border: 2px solid #cbb26a;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
 }
 
-/* Añadir esta regla para mostrar el contenido del menú al hacer hover sobre el botón */
 .dropdown:hover .dropdown-content {
   display: block;
 }
 
-/* ... (código posterior) ... */
-/* Estilos base */
-
-/* Media query para pantallas pequeñas (teléfonos) */
-@media only screen and (max-width: 600px) {
-  .header-content {
-    padding: 10px; /* Ajusta el padding para pantallas pequeñas */
-  }
-
-  .menu {
-    /* Ajustes adicionales para el menú en pantallas pequeñas */
-  }
-
-  .icon {
-    font-size: 20px; /* Ajusta el tamaño del icono para pantallas pequeñas */
-  }
-
-  .dropdown-content {
-    /* Ajustes adicionales para el menú desplegable en pantallas pequeñas */
-  }
-
-  .logo-and-image {
-    padding: 20px; /* Ajusta el padding para pantallas pequeñas */
-    flex-direction: column; /* Cambia la dirección del flexbox para apilar elementos verticalmente */
-    align-items: center; /* Centra los elementos en pantallas pequeñas */
-  }
-
-  .logo img,
-  .image img {
-    width: 80%; /* Ajusta el tamaño de las imágenes para pantallas pequeñas */
-    margin: 10px 0; /* Ajusta el espacio alrededor de las imágenes para pantallas pequeñas */
-  }
-
-  .main-content {
-    padding: 20px; /* Ajusta el padding para pantallas pequeñas */
-  }
-
-  .centered {
-    padding: 20px; /* Ajusta el padding para pantallas pequeñas */
-  }
-
-  footer {
-    padding: 10px; /* Ajusta el padding para pantallas pequeñas */
-  }
-}
-
-/* Media query para pantallas pequeñas (teléfonos) */
 @media only screen and (max-width: 600px) {
   .header-content {
     padding: 10px;
   }
 
   .menu {
-    /* Ajustes adicionales para el menú en pantallas pequeñas */
   }
 
   .icon {
@@ -178,21 +127,18 @@ footer {
   }
 
   .dropdown-content {
-    /* Ajustes adicionales para el menú desplegable en pantallas pequeñas */
   }
 
   .logo-and-image {
     padding: 20px;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Centra verticalmente */
-    text-align: center; /* Centra horizontalmente */
   }
 
   .logo img,
   .image img {
     width: 80%;
-    margin: 10px auto; /* Centra horizontalmente */
+    margin: 10px 0;
   }
 
   .main-content {
@@ -207,14 +153,13 @@ footer {
     padding: 10px;
   }
 }
-/* Media query para pantallas pequeñas (teléfonos) */
+
 @media only screen and (max-width: 600px) {
   .header-content {
     padding: 10px;
   }
 
   .menu {
-    /* Ajustes adicionales para el menú en pantallas pequeñas */
   }
 
   .icon {
@@ -222,26 +167,24 @@ footer {
   }
 
   .dropdown-content {
-    /* Ajustes adicionales para el menú desplegable en pantallas pequeñas */
   }
 
   .logo-and-image {
     padding: 20px;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Centra verticalmente */
-    text-align: center; /* Centra horizontalmente */
+    justify-content: center;
+    text-align: center;
   }
 
   .logo img,
   .image img {
     width: 80%;
-    margin: 10px auto; /* Centra horizontalmente */
+    margin: 10px auto;
   }
 
   .main-content {
     padding: 20px;
-    margin-bottom: 60px; /* Agregado margen inferior para evitar superposición con el footer */
   }
 
   .centered {
@@ -252,14 +195,13 @@ footer {
     padding: 10px;
   }
 }
-/* Media query para pantallas pequeñas (teléfonos) */
+
 @media only screen and (max-width: 600px) {
   .header-content {
     padding: 10px;
   }
 
   .menu {
-    /* Ajustes adicionales para el menú en pantallas pequeñas */
   }
 
   .icon {
@@ -267,26 +209,25 @@ footer {
   }
 
   .dropdown-content {
-    /* Ajustes adicionales para el menú desplegable en pantallas pequeñas */
   }
 
   .logo-and-image {
     padding: 20px;
     flex-direction: column;
     align-items: center;
-    justify-content: center; /* Centra verticalmente */
-    text-align: center; /* Centra horizontalmente */
+    justify-content: center;
+    text-align: center;
   }
 
   .logo img,
   .image img {
     width: 80%;
-    margin: 10px auto; /* Centra horizontalmente */
+    margin: 10px auto;
   }
 
   .main-content {
     padding: 20px;
-    margin-bottom: 60px; /* Agregado margen inferior para evitar superposición con el footer */
+    margin-bottom: 60px;
   }
 
   .centered {
@@ -298,12 +239,80 @@ footer {
   }
 }
 
-/* Media query para pantallas medianas (tabletas, por ejemplo) */
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-  /* Ajustes adicionales para pantallas medianas */
+@media only screen and (max-width: 600px) {
+  .header-content {
+    padding: 10px;
+  }
+
+  .menu {
+  }
+
+  .icon {
+    font-size: 20px;
+  }
+
+  .dropdown-content {
+  }
+
+  .logo-and-image {
+    padding: 20px;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .logo img,
+  .image img {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .logo img {
+    border-radius: 50%;
+    position: relative;
+    top: -50px;
+  }
+
+  .main-content {
+    padding: 20px;
+    margin-bottom: 60px;
+  }
+
+  .centered {
+    padding: 20px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .dropdown-content a {
+    border-bottom: 1px solid #fff;
+  }
+
+  .dropdown-content a:last-child {
+    border-bottom: none;
+  }
 }
 
-/* Media query para pantallas grandes (escritorios, laptops, etc.) */
-@media only screen and (min-width: 1025px) {
-  /* Ajustes adicionales para pantallas grandes */
+#articulos {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+#articulos img {
+  width: 100%;
+  border: 2px solid #cbb26a;
+  margin-bottom: 10px;
 }
