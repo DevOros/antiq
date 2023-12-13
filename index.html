@@ -7,39 +7,6 @@
     <link rel="icon" href="icon.jpg" type="image/jpg" />
 
     <title>Antiq</title>
-    <style>
-      section {
-        border: 4px solid #cbb26a;
-        margin: 20px;
-        padding: 20px;
-      }
-
-      #quienes-somos {
-        text-align: justify;
-        line-height: 1.5;
-      }
-
-      #articulos {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 20px;
-        text-align: center;
-      }
-
-      #articulos img {
-        width: 100%;
-        border: 2px solid #cbb26a;
-        margin-bottom: 10px;
-      }
-
-      #contacto {
-        text-align: center;
-      }
-
-      #informacion-adicional {
-        border: none;
-      }
-    </style>
   </head>
   <body>
     <header>
@@ -83,21 +50,34 @@
     </section>
 
     <section id="articulos" class="main-content">
+      <!-- Dentro de la sección de Artículos -->
       <div class="centered">
         <h2>Artículos</h2>
-        <div id="articulos">
-          <img src="vajilla.jpg" alt="Vajilla" />
-          <p>Vajilla</p>
-          <img src="estatuillas.jpg" alt="Estatuillas" />
-          <p>Estatuillas</p>
-          <img src="jarrones.jpg" alt="Jarrones" />
-          <p>Jarrones</p>
-          <img src="relojes.jpg" alt="Relojes" />
-          <p>Relojes</p>
-          <img src="plata.jpg" alt="Plata" />
-          <p>Plata</p>
-          <img src="extras.jpg" alt="Extras" />
-          <p>Extras</p>
+        <div class="container">
+          <div class="item">
+            <img src="vajilla.jpg" alt="Vajilla" />
+            <p>Vajilla</p>
+          </div>
+          <div class="item">
+            <img src="estatuillas.jpg" alt="Estatuillas" />
+            <p>Estatuillas</p>
+          </div>
+          <div class="item">
+            <img src="jarrones.jpg" alt="Jarrones" />
+            <p>Jarrones</p>
+          </div>
+          <div class="item">
+            <img src="relojes.jpg" alt="Relojes" />
+            <p>Relojes</p>
+          </div>
+          <div class="item">
+            <img src="plata.jpg" alt="Plata" />
+            <p>Plata</p>
+          </div>
+          <div class="item">
+            <img src="extras.jpg" alt="Extras" />
+            <p>Extras</p>
+          </div>
         </div>
       </div>
     </section>
