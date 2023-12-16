@@ -216,7 +216,9 @@ footer {
     width: 80%;
     margin: 10px auto;
   }
-
+  .image {
+    padding: 5px;
+  }
   .logo img {
     border-radius: 50%;
     position: relative;
